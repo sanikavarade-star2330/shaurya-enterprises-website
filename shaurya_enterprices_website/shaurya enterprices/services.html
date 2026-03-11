@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Services | Shaurya Enterprises</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Segoe UI', sans-serif;
+background:#0f0f0f;
+color:white;
+}
+
+/* NAVBAR */
+
+header{
+background:#111;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:2px solid gold;
+}
+
+header h1{
+color:gold;
+letter-spacing:2px;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:18px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
+/* HERO */
+
+.hero{
+height:55vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url('https://images.unsplash.com/photo-1511578314322-379afb476865');
+
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:50px;
+color:gold;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+}
+
+/* SERVICES SECTION */
+
+.services{
+padding:80px 10%;
+text-align:center;
+}
+
+.services h2{
+font-size:40px;
+color:gold;
+margin-bottom:40px;
+}
+
+.service-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:35px;
+}
+
+/* SERVICE CARD */
+
+.card{
+background:#1a1a1a;
+width:260px;
+padding:30px;
+border-radius:12px;
+border:1px solid #333;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-12px);
+border-color:gold;
+box-shadow:0 10px 25px rgba(255,215,0,0.2);
+}
+
+.card img{
+width:70px;
+margin-bottom:15px;
+}
+
+.card h3{
+color:gold;
+margin-bottom:10px;
+}
+
+.card p{
+font-size:15px;
+line-height:1.6;
+}
+
+/* PROCESS SECTION */
+
+.process{
+padding:80px 10%;
+text-align:center;
+background:#141414;
+}
+
+.process h2{
+color:gold;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.steps{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.step{
+background:#1a1a1a;
+padding:25px;
+width:220px;
+border-radius:10px;
+border:1px solid #333;
+}
+
+.step h3{
+color:gold;
+}
+
+/* CTA */
+
+.cta{
+text-align:center;
+padding:80px 10%;
+}
+
+.cta h2{
+color:gold;
+font-size:38px;
+margin-bottom:20px;
+}
+
+.cta button{
+padding:14px 30px;
+font-size:18px;
+border:none;
+background:gold;
+color:black;
+border-radius:5px;
+cursor:pointer;
+transition:.3s;
+}
+
+.cta button:hover{
+background:white;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+padding:20px;
+text-align:center;
+border-top:1px solid #333;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Shaurya Enterprises</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Our Services</h2>
+
+<p>
+We design, manage and execute extraordinary events with creativity,
+professionalism and attention to every detail.
+</p>
+
+</section>
+
+
+<section class="services">
+
+<h2>What We Offer</h2>
+
+<div class="service-container">
+
+<div class="card">
+<img src="https://img.icons8.com/ios-filled/100/FFD700/wedding.png"/>
+<h3>Wedding Planning</h3>
+<p>Elegant wedding decorations, venue setup, and complete planning
+to make your big day unforgettable.</p>
+</div>
+
+<div class="card">
+<img src="https://img.icons8.com/ios-filled/100/FFD700/birthday-cake.png"/>
+<h3>Birthday Parties</h3>
+<p>Creative birthday themes, decorations and entertainment for
+children and adults.</p>
+</div>
+
+<div class="card">
+<img src="https://img.icons8.com/ios-filled/100/FFD700/conference.png"/>
+<h3>Corporate Events</h3>
+<p>Professional conferences, meetings and company celebrations
+with smooth management.</p>
+</div>
+
+<div class="card">
+<img src="https://img.icons8.com/ios-filled/100/FFD700/microphone.png"/>
+<h3>Live Shows</h3>
+<p>Concerts, DJ nights and stage events with full lighting
+and sound management.</p>
+</div>
+
+<div class="card">
+<img src="https://img.icons8.com/ios-filled/100/FFD700/balloon.png"/>
+<h3>Theme Decorations</h3>
+<p>Beautiful customized decorations according to your
+event theme and preferences.</p>
+</div>
+
+<div class="card">
+<img src="https://img.icons8.com/ios-filled/100/FFD700/event-accepted.png"/>
+<h3>College Festivals</h3>
+<p>Management of college events, cultural festivals and
+large crowd celebrations.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="process">
+
+<h2>How We Work</h2>
+
+<div class="steps">
+
+<div class="step">
+<h3>1. Planning</h3>
+<p>Understanding your vision and requirements.</p>
+</div>
+
+<div class="step">
+<h3>2. Designing</h3>
+<p>Creating unique themes and event concepts.</p>
+</div>
+
+<div class="step">
+<h3>3. Execution</h3>
+<p>Managing everything perfectly on event day.</p>
+</div>
+
+<div class="step">
+<h3>4. Celebration</h3>
+<p>You enjoy the event while we handle the details.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cta">
+
+<h2>Let's Plan Your Next Event</h2>
+
+<button onclick="location.href='contact.html'">Book Your Event</button>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Shaurya Enterprises | Event Management</p>
+
+</footer>
+
+</body>
+</html>

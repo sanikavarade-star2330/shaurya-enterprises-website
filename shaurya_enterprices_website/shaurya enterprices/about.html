@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About | Shaurya Enterprises</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Segoe UI', sans-serif;
+background:#0f0f0f;
+color:white;
+}
+
+/* NAVBAR */
+
+header{
+background:#111;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:2px solid gold;
+}
+
+header h1{
+color:gold;
+letter-spacing:2px;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:18px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
+/* HERO */
+
+.about-hero{
+height:60vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30');
+
+background-size:cover;
+background-position:center;
+}
+
+.about-hero h2{
+font-size:50px;
+color:gold;
+}
+
+/* ABOUT SECTION */
+
+.about-section{
+padding:70px 10%;
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:50px;
+}
+
+.about-text{
+flex:1;
+}
+
+.about-text h3{
+color:gold;
+font-size:35px;
+margin-bottom:15px;
+}
+
+.about-text p{
+font-size:18px;
+line-height:1.7;
+}
+
+.about-image{
+flex:1;
+}
+
+.about-image img{
+width:100%;
+border-radius:10px;
+}
+
+/* WHY CHOOSE US */
+
+.features{
+padding:70px 10%;
+text-align:center;
+}
+
+.features h2{
+color:gold;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.feature-box{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.card{
+background:#1a1a1a;
+padding:30px;
+width:250px;
+border-radius:10px;
+transition:.3s;
+border:1px solid #333;
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:gold;
+}
+
+.card h3{
+color:gold;
+}
+
+/* TEAM */
+
+.team{
+padding:70px 10%;
+text-align:center;
+}
+
+.team h2{
+color:gold;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.team-box{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.member{
+background:#1a1a1a;
+padding:20px;
+border-radius:10px;
+width:200px;
+}
+
+.member img{
+width:100%;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+text-align:center;
+padding:20px;
+border-top:1px solid #333;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Shaurya Enterprises</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="about-hero">
+
+<h2>About Us</h2>
+<p>Turning celebrations into unforgettable memories</p>
+
+</section>
+
+
+<section class="about-section">
+
+<div class="about-text">
+
+<h3>Who We Are</h3>
+
+<p>
+Shaurya Enterprises is a professional event management company
+dedicated to creating unforgettable celebrations. From elegant
+weddings to grand corporate events, we bring creativity,
+innovation and perfection to every occasion.
+</p>
+
+<p>
+Our team focuses on planning, decoration, coordination and
+execution so that every event becomes a memorable experience
+for our clients and their guests.
+</p>
+
+</div>
+
+<div class="about-image">
+
+<img src="https://images.unsplash.com/photo-1505236731920-7f8d0a44c1b2">
+
+</div>
+
+</section>
+
+
+<section class="features">
+
+<h2>Why Choose Us</h2>
+
+<div class="feature-box">
+
+<div class="card">
+<h3>Creative Ideas</h3>
+<p>Unique themes and designs that make your event special.</p>
+</div>
+
+<div class="card">
+<h3>Professional Team</h3>
+<p>Experienced planners who handle everything perfectly.</p>
+</div>
+
+<div class="card">
+<h3>Perfect Execution</h3>
+<p>We ensure every event runs smoothly and successfully.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="team">
+
+<h2>Our Team</h2>
+
+<div class="team-box">
+
+<div class="member">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>Event Director</h3>
+</div>
+
+<div class="member">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Creative Planner</h3>
+</div>
+
+<div class="member">
+<img src="https://www.thetamarindtree.in/blog/wedding-planners-bengaluru/">
+<h3>Coordinator</h3>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Shaurya Enterprises | Event Management</p>
+
+</footer>
+
+</body>
+</html>
